@@ -1,16 +1,48 @@
 body {
   background-color: rgba(124, 6, 90, 0.62);
+  font-style: georgia, serif;
 }
 
 h1 {
   color: black;
-  font-family: georgia, sans-serif;
+  font-family: 'Bebas Neue', cursive;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .container h1 {
-  font-size: 4em;
+  font-size: 6.5em;
 }
+
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontalLine {
+  padding-top: 20px;
+}
+
+.horizontalLine li {
+  display: inline;
+  margin: 30px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+}
+
+.horizontalLine li a {
+  color: black;
+  text-decoration: none;
+  font-family: georgia, serif;
+}
+
+.horizontalLine li a:hover {
+  color: rgb(128, 128, 128);
+}
+
 
 .center {
   display: block;
@@ -20,13 +52,67 @@ h1 {
 }
 
 h2 {
-  text-align: center;rgb(240, 182, 171)
+font-family: 'Bebas Neue', cursive;
 }
 
 .article {
   margin: auto;
-  padding: 20px;
+  padding: 15px;
   background-color: rgba(198, 200, 236, 0.82);
   width: 500px;
-  border-radius: 10%;
+  border-radius: 5%;
+}
+
+img {
+  margin-bottom: 25px;
+}
+
+.about {
+  font-size: 1.5em;
+  margin-bottom: 0px;
+}
+
+.life {
+  font-size: 1.15em;
+  font-style: georgia, serif;
+  text-align: center;
+}
+
+.work {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.work li a:hover {
+    color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+.contact {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.edu {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+    display: table;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
