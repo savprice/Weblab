@@ -1,0 +1,32 @@
+body {
+  background-color: rgba(124, 6, 90, 0.62);
+}
+
+h1 {
+  color: black;
+  font-family: georgia, sans-serif;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 4em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px
+}
+
+h2 {
+  text-align: center;rgb(240, 182, 171)
+}
+
+.article {
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(198, 200, 236, 0.82);
+  width: 500px;
+  border-radius: 10%;
+}

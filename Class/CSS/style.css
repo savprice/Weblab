@@ -1,0 +1,78 @@
+body {
+  background-color: rgba(237, 199, 214, 0.86);
+}
+
+
+/* this will grab all the h1 tags */
+h1
+{
+  color: rgb(238, 155, 188);
+  font-family: "Oswald", sans-serif;
+}
+
+/* this is a class */
+.container
+{
+margin: auto;
+padding: 20px;
+background-color: white;
+width: 600px;
+box-shadow: 15px 20px 10px 10px rgb(198, 192, 195);
+border-radius: 10%;
+}
+
+.article h1 {
+  color: black;
+
+}
+
+/* this is an ID */
+.article  {
+background-color: rgba(232, 103, 146, 0.34);
+width: 400px;
+margin: auto;
+}
+
+
+.container h1 {
+font-size: 4em;
+}
+
+.sidebar {
+  float:left;
+  margin-left: 60px;
+  padding: 20px;
+  background-color: white;
+  width: 10%;
+  box-shadow: 6px 7px 5 px 2px #ededed;
+  border-radius: 20px;
+}
+
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontalLine {
+  padding-top: 20px;
+}
+
+.horizontalLine li {
+  display: inline;
+  margin: 40px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+}
+
+.horizontalLine li a {
+  color: black;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+}
+
+.horizontalLine li a:hover {
+  color: rgb(213, 96, 134);
+}
