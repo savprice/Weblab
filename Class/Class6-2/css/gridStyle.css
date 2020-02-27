@@ -96,8 +96,8 @@ background-color: pink;
   /* The templates areas will help us to distribute the cells from our grid in the order we want.
   You can name it as you like of course is always good to name it in a obvious way.  */
   grid-template-areas:  "hea hea hea"
-                        "nav main main"
-                        "nav main main"
+                        "nav nav nav"
+                        "main main main"
                         "foo foo foo";
 
   grid-template-rows: 10% 100px 20% 5em;
