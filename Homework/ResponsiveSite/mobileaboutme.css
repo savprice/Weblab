@@ -1,0 +1,34 @@
+body {
+background-color: rgb(251, 238, 234);
+}
+
+h1 {
+  font-family: 'Bebas Neue';
+  color: white;
+  font-size: 6.5em;
+  margin-bottom: .5px;
+  padding: .1px;
+}
+
+h2 {
+  margin-top: -10px;
+  font-size: 2em;
+}
+
+img {
+  width: 65%;
+}
+
+.about {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contact {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+h3 {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,35 @@
+body {
+background-color: rgb(251, 238, 234);
+}
+
+h1 {
+  font-family: 'Bebas Neue';
+  color: white;
+  font-size: 6.5em;
+  margin-bottom: .5px;
+  padding: .1px;
+}
+
+h2 {
+  margin-top: -10px;
+  font-size: 2em;
+}
+
+.grid1
+{
+  width: 75%;
+  height: 20vh;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.alt {
+  width: 80px;
+}
+
+
+
+img {
+  width: 40%;
+}
