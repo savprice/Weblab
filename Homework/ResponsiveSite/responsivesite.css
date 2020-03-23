@@ -18,6 +18,10 @@ h2 {
   margin-bottom: 40px;
 }
 
+h3 {
+  margin-bottom: 0px;
+}
+
 .navigation {
   display: table;
   margin: 0 auto;
