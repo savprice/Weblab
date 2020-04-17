@@ -88,3 +88,18 @@ footer {
   margin-top: -150px;
   text-align: center;
 }
+
+.gridImages
+{
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.gridImages a img
+{
+  width: 100%;
+  margin-bottom: 10px;
+}
