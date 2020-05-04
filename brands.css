@@ -1,0 +1,36 @@
+main {
+  margin: 0 2em;
+}
+
+.description {
+  text-align: center;
+  padding: 3vw;
+  font-size: 5vw;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.description p {
+  margin: 0;
+}
+
+.grid {
+  margin: 4em 0;
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 50px;
+}
+
+.grid .brand {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+
+.grid .brand img {
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+  object-fit: cover;
+}
+ 
